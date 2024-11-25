@@ -7,6 +7,7 @@ public class PrintThread extends Thread {
 			System.out.println("실행중: " + i);
 			i++;
 			if (Thread.interrupted()) {
+				System.out.println("Thread.interrupted() 값이 true로 바뀐 듯하다");
 				break;
 			}
 		}

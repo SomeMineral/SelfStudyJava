@@ -12,6 +12,7 @@ public class InterruptExample {
 		} catch (InterruptedException e) {
 			
 		}
+		System.out.println("main에서 interrupt넣을게에에");
 		thread.interrupt();
 		
 	}
